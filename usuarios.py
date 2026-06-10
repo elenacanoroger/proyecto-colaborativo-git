@@ -5,3 +5,6 @@ def agregar_usuario(nombre):
 
 def listar_usuarios():
     return usuarios
+
+def buscar_usuario(nombre):
+    return nombre in usuarios
