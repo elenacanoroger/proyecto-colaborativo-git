@@ -22,5 +22,9 @@ def mostrar_menu():
     print("4. Salir")
 
 # Pruebas básicas de funcionamiento
-print(listar_usuarios())
-print(buscar_usuario("Elena"))
+mostrar_menu()
+
+agregar_usuario("Elena")
+
+print("Usuarios registrados:", listar_usuarios())
+print("¿Existe Elena?", buscar_usuario("Elena"))
