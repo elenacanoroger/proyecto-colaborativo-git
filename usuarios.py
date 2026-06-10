@@ -15,3 +15,7 @@ def mostrar_menu():
     print("2. Listar usuarios")
     print("3. Buscar usuario")
     print("4. Salir")
+
+# Pruebas básicas
+print(listar_usuarios())
+print(buscar_usuario("Elena"))
