@@ -1,14 +1,19 @@
+# Lista donde se almacenan los usuarios
 usuarios = []
 
+# Agrega un usuario a la lista
 def agregar_usuario(nombre):
     usuarios.append(nombre)
 
+# Devuelve todos los usuarios registrados
 def listar_usuarios():
     return usuarios
 
+# Busca un usuario por nombre
 def buscar_usuario(nombre):
     return nombre in usuarios
 
+# Muestra el menú principal
 def mostrar_menu():
     print("=== MENÚ PRINCIPAL ===")
     print("1. Agregar usuario")
@@ -16,6 +21,6 @@ def mostrar_menu():
     print("3. Buscar usuario")
     print("4. Salir")
 
-# Pruebas básicas
+# Pruebas básicas de funcionamiento
 print(listar_usuarios())
 print(buscar_usuario("Elena"))
